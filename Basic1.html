@@ -9,7 +9,17 @@
 </head>
 
 <body>
-    <div class="form">
+    <div id="bobs" class="form">
+        <div>
+            <label for="jobs">Choose your Job:</label>
+            <select id="profession" name="prof" form="profform">
+            <option id="hosp" value="Gastro">Hospitality</option>
+            <option id="info" value="IT">IT</option>
+            </select>
+        </div>
+        <br>
+
+
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="1"><br>
         <label for="lname">Last name:</label><br>
@@ -18,6 +28,7 @@
         <input type="number" id="age" name="age" value="3"><br>
         <input type="submit" id="btnextrct" value="Submit">
     </div>
+
 
     <div id="displayedElements">
         <p id="nameid"></p>

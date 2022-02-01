@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC,GAAG,CAAC;EACX,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "santa.scss"
+    ],
+    "names": [],
+    "file": "santa.css"
+}
