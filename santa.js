@@ -1,5 +1,10 @@
 function removeSanta() {
-    this.style.opacity = "0"
+
+    if (this.style.opacity == 0) {
+        this.style.opacity = "1"
+    } else {
+        this.style.opacity = "0"
+    }
 }
 var santaSelect = document.getElementsByClassName("santadog");
 
